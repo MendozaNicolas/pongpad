@@ -28,6 +28,7 @@ El proyecto cuenta con el directorio Assets donde estan alojadas todas las image
 En el archivo pong.py es donde el juego cuenta con todas las funcionalidades para funcionar, 
 Primero importo las librerias, luego los assets. 
 El script cuenta con varias clases que en el juego cuenta como una "entidad", la clase **Paddle** es donde  estan las funciones del jugador, como la de subir y bajar.
+Este proyecto lo realice en mis tiempos libres, y lo voy a ir actualizando cuando tenga mas ratos libres.
 
 ## Instalación
 Requerimientos: Necesitas tener python instalado
