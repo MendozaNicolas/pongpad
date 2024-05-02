@@ -16,8 +16,8 @@ BLACK = (0, 0, 0)
 # Pygame initialization
 pygame.init()
 
-ICON = pygame.image.load('icon.png')
-BACKGROUND = pygame.image.load('notepad.png')
+ICON = pygame.image.load('assets/icon.png')
+BACKGROUND = pygame.image.load('assets/notepad.png')
 
 screen = pygame.display.set_mode((SCREEN_WIDTH, SCREEN_HEIGHT))
 pygame.display.set_icon(ICON)
@@ -128,7 +128,7 @@ while True:
 
     # Draw everything
     screen.fill(WHITE)
-    
+
     # Render the ASCII art and get a surface
     screen.blit(BACKGROUND, (0,0))
     for i, line in enumerate(PADDLEDESIGN):
